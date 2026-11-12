@@ -1,0 +1,467 @@
+export const en = {
+  nav: {
+    home: "Home",
+    about: "About Palm",
+    academics: "Academics",
+    teachers: "Teachers",
+    events: "News & Events",
+    admissions: "Admissions",
+    contact: "Contact",
+    faqs: "FAQs",
+    menu: "Menu",
+    close: "Close",
+    admissionOpen: "Admission Open",
+    callUs: "Call us",
+    email: "Email",
+    language: "Language",
+  },
+
+  home: {
+    topbar: "2026 Academic Year Admission Open!",
+    heroKicker: "Shaping Students Futures in Thiruthuraipoondi",
+    heroLine1: "A place to",
+    heroLine2: "learn & belong",
+    heroLead:
+      "Since 2012, Palm Matric Hr. Sec. School has been a leading educational institution in Thiruthuraipoondi, nurturing young minds with academic excellence, character building, and innovative learning experiences.",
+    heroCta: "Discover our school",
+    heroAdmission: "Apply for admission",
+    watchVideo: "Watch our school film",
+    scroll: "Scroll to explore",
+
+    features: [
+      {
+        title: "The Infrastructure",
+        text: "We provide modern classrooms, well-equipped labs, and a vast library to support effective learning in Thiruthuraipoondi.",
+      },
+      {
+        title: "Learning Approach",
+        text: "Our curriculum combines theory with practical applications, making learning interactive, engaging, and insightful for students in Thiruthuraipoondi.",
+      },
+      {
+        title: "Dedicated Mentorship",
+        text: "Our experienced teachers guide students not only academically but also in career development and personal growth in Thiruthuraipoondi.",
+      },
+    ],
+
+    aboutLabel: "About Us",
+    aboutTitle: "Shaping Young Minds, Inspiring Bright Futures",
+    aboutText:
+      "Since 2012, Palm Matric Hr. Sec. School has been a beacon of academic excellence in Thiruthuraipoondi, shaping young minds with a blend of knowledge, values, and innovation. Our dedicated faculty, modern infrastructure, and holistic learning approach ensure that students excel both academically and personally.",
+    aboutCta: "Read more",
+    faqBadge: "Have queries?",
+    faqLink: "FAQ",
+
+    statsLabel: "Palm Matric at a glance",
+    statsTitle: "Fifteen years of learning that lasts",
+    statsText:
+      "Since 2012 we have offered a caring, affordable education that connects the young people of Thiruthuraipoondi to the world around them.",
+    stats: [
+      { value: "2012", label: "Year established" },
+      { value: "10,000+", label: "Students who learnt with us" },
+      { value: "4", label: "Academic groups offered" },
+      { value: "6", label: "Dedicated expert teachers" },
+    ],
+
+    coursesLabel: "Offered Courses",
+    coursesTitle: "Offered Academic Groups",
+    coursesCta: "All courses",
+
+    whyLabel: "Why Choose Us",
+    whyTitle: "Quality Education at an Affordable Cost",
+    why: [
+      {
+        icon: "/assets/img/icon-save-money.png",
+        title: "Affordable Learning",
+        text: "Quality education that fits every family's budget in Thiruthuraipoondi.",
+      },
+      {
+        icon: "/assets/img/icon-best-seller.png",
+        title: "Best Curriculum",
+        text: "Experienced faculty, innovative teaching, and future-ready skills to empower students.",
+      },
+    ],
+    whyStat: "10,000+",
+    whyStatLabel: "students achieved professional success",
+
+    testimonialLabel: "Real Student Stories",
+    testimonialTitle: "Parents' Experiences",
+
+    newsLabel: "Latest",
+    newsTitle: "News & Events",
+    newsCta: "View all events",
+
+    ctaTitle: "Admissions Open for the Academic Year!",
+    ctaText:
+      "At Palm Matric Hr. Sec. School, we believe in providing quality education at an affordable cost in Thiruthuraipoondi. Join our learning community and give your child the best start toward academic and personal success.",
+    ctaPrimary: "Apply now",
+    ctaSecondary: "Talk to us",
+  },
+
+  about: {
+    breadcrumb: "About",
+    kicker: "Our School",
+    title: "Excellence in Education, Since 2012",
+    lead: "Palm Matric Hr. Sec. School has been a beacon of academic excellence in Thiruthuraipoondi, shaping young minds with a blend of knowledge, values, and innovation.",
+    body: [
+      "Our dedicated faculty, modern infrastructure, and holistic learning approach ensure that students excel both academically and personally. From sturdy classrooms to well-equipped laboratories and a growing library, every corner of our campus is designed to help children learn with joy.",
+      "We believe education goes beyond textbooks. Alongside the State Board curriculum, our students take part in sports, cultural programmes, science expos and community events that build confidence and character.",
+    ],
+    chairmanLabel: "A Message from Our Leaders",
+    chairmanTitle: "Chairman's Address",
+    chairmanQuote:
+      "At Palm Matric Hr. Sec. School, we believe in education that goes beyond textbooks. We aim to equip our students with knowledge, wisdom, and the ability to make meaningful contributions to society in Thiruthuraipoondi.",
+    chairmanName: "Dr. Arif",
+    chairmanRole: "Chairman",
+
+    valuesLabel: "Our Values",
+    valuesTitle: "What we stand for",
+    values: [
+      {
+        title: "Respect",
+        text: "We show empathy and are inclusive and thoughtful in our interactions with others. Every student is valued and valuable.",
+      },
+      {
+        title: "Motivate",
+        text: "We inspire each other and grow by building on everyone's individual and collective passions.",
+      },
+      {
+        title: "Achieve",
+        text: "We create an exceptional learning environment focused on academic achievement and holistic development.",
+      },
+    ],
+
+    approachLabel: "How we learn",
+    approachTitle: "Learning at Palm Matric",
+    approach: [
+      { title: "Centred on the Learner", text: "Every child learns differently — our teachers adapt pace, style and support to each student." },
+      { title: "Meaningful", text: "Lessons connect to the real world, so knowledge turns into understanding." },
+      { title: "Challenging", text: "High expectations with the right support help students achieve more than they believe possible." },
+      { title: "Connected", text: "Subjects, skills and life outside school are woven together into one journey." },
+    ],
+
+    galleryLabel: "Campus Life",
+    galleryTitle: "Moments from our campus",
+
+    stats: [
+      { value: "2012", label: "Established" },
+      { value: "10,000+", label: "Happy students" },
+      { value: "4", label: "Academic groups" },
+      { value: "100%", label: "Affordable fees" },
+    ],
+
+    ctaTitle: "Come and see Palm Matric for yourself",
+    ctaText: "Book a campus visit — we would love to show you around and answer your questions.",
+    ctaPrimary: "Book a visit",
+    ctaSecondary: "Contact us",
+  },
+
+  academics: {
+    breadcrumb: "Academics",
+    kicker: "Curriculum",
+    title: "Courses Offered",
+    lead: "Four academic groups built on the Tamil Nadu State Board curriculum — with the subjects students need for their chosen future.",
+    groups: [
+      {
+        icon: "/assets/img/icon-ai.png",
+        title: "Science & Technology",
+        subjects: ["Computer Science", "Mathematics", "Physics", "Chemistry"],
+        text: "For students aiming at engineering, IT and technology careers — coding, computing and the core sciences together.",
+      },
+      {
+        icon: "/assets/img/icon-atom.png",
+        title: "Life Sciences",
+        subjects: ["Biology", "Mathematics", "Physics", "Chemistry"],
+        text: "The classic medical and life-science pathway, blending biology with the quantitative power of mathematics.",
+      },
+      {
+        icon: "/assets/img/icon-chemistry.png",
+        title: "Advanced Sciences",
+        subjects: ["Physics", "Chemistry", "Botany", "Zoology"],
+        text: "A deep dive into the pure sciences for students passionate about research, medicine and the natural world.",
+      },
+      {
+        icon: "/assets/img/icon-exchange.png",
+        title: "Business Studies",
+        subjects: ["Computer Application", "Commerce", "Economics", "Accountancy"],
+        text: "For future entrepreneurs, bankers and accountants — commerce, economics and applied computer skills.",
+      },
+    ],
+    journeyLabel: "The Journey",
+    journeyTitle: "From Class 1 to Class 12",
+    journey: [
+      { stage: "Primary", grades: "Classes 1 – 5", text: "Foundational literacy and numeracy through activity-based learning." },
+      { stage: "Middle", grades: "Classes 6 – 8", text: "Broad subject exposure, laboratory work and growing independence." },
+      { stage: "Secondary", grades: "Classes 9 – 10", text: "Board exam focus with structured revision, tests and mentoring." },
+      { stage: "Higher Secondary", grades: "Classes 11 – 12", text: "Specialised academic groups preparing for university and careers." },
+    ],
+    facilitiesLabel: "Facilities",
+    facilitiesTitle: "Built for learning",
+    facilities: [
+      { title: "Modern Classrooms", text: "Spacious, well-lit classrooms with smart-class support." },
+      { title: "Science Labs", text: "Physics, chemistry and biology labs for hands-on experiments." },
+      { title: "Library", text: "A growing collection of books, references and periodicals." },
+      { title: "Computer Lab", text: "Practical computing for the Computer Science group and beyond." },
+      { title: "Sports Ground", text: "Space for volleyball, throwball, athletics and more." },
+      { title: "Safe Campus", text: "A secure, caring environment where children thrive." },
+    ],
+    ctaTitle: "Not sure which group fits your child?",
+    ctaText: "Our teachers will help you choose the right academic path.",
+    ctaPrimary: "Talk to a teacher",
+    ctaSecondary: "See FAQs",
+  },
+
+  teachers: {
+    breadcrumb: "Teachers",
+    kicker: "Our Faculty",
+    title: "Expert Teachers",
+    lead: "The heart of Palm Matric — experienced, caring educators who know every student by name.",
+    items: [
+      { name: "Mr. Rajesh Krishnan", role: "Mathematics Teacher", note: "Makes numbers simple, from Class 6 to Class 12." },
+      { name: "Mr. Praveen Varma", role: "Social Studies Teacher", note: "Brings history and civics to life with stories." },
+      { name: "Mr. Arun Mohan", role: "Commerce Teacher", note: "Guides future accountants and entrepreneurs." },
+      { name: "Mrs. Kavitha Subramanian", role: "Computer Science Teacher", note: "Leads coding, IT and digital skills." },
+      { name: "Mrs. Pooja Srinivasan", role: "English Teacher", note: "Builds confident readers and speakers." },
+      { name: "Mrs. Anitha Raman", role: "Science Teacher", note: "Turns the laboratory into a place of wonder." },
+    ],
+    promiseLabel: "Our Promise",
+    promiseTitle: "More than teachers",
+    promiseText:
+      "Every teacher at Palm Matric mentors students through exams, career choices and personal growth — inside the classroom and beyond.",
+    ctaTitle: "Want to join our faculty?",
+    ctaText: "We are always looking for passionate educators.",
+    ctaPrimary: "Work for us",
+    ctaSecondary: "Contact us",
+  },
+
+  events: {
+    breadcrumb: "News & Events",
+    kicker: "School Life",
+    title: "News & Events",
+    lead: "Celebrations, achievements and moments that make Palm Matric feel like home.",
+    items: [
+      {
+        date: "26 Jan 2026",
+        tag: "Celebration",
+        title: "77th Republic Day Celebration – 2026",
+        text: "A grand and heartwarming event that brought together students and staff to honour India's democratic values and the adoption of the Constitution — filled with patriotic fervour and a spirit of unity.",
+      },
+      {
+        date: "26 Jan 2026",
+        tag: "Celebration",
+        title: "10th Annual Day Celebration – 2026",
+        text: "A much-awaited celebration marking the culmination of a year of learning, growth and achievement — showcasing students, parents and educators together on one stage.",
+      },
+      {
+        date: "20 Sep 2025",
+        tag: "Sports",
+        title: "9th Annual Sports Day – 2025",
+        text: "Our annual day of athletics, teamwork and house spirit — where every student had a chance to shine on the track and field.",
+      },
+      {
+        date: "16 Sep 2025",
+        tag: "Exhibition",
+        title: "Science Expo – 2025",
+        text: "Meticulously planned by students and teachers, the school buzzed with informative charts, models and displays — each group ready to explain their projects.",
+      },
+      {
+        date: "15 Sep 2025",
+        tag: "Celebration",
+        title: "Independence Day Celebration 2025",
+        text: "Colours of pride, joy and patriotism — cultural performances and creative competitions reflecting our love for the nation and the spirit of freedom.",
+      },
+      {
+        date: "15 Sep 2025",
+        tag: "Milestone",
+        title: "UKG Graduation Day Celebration",
+        text: "A joyful and proud moment as our UKG students celebrated their graduation with heartfelt send-offs, inspiring words and mementos — congratulations to our young graduates!",
+      },
+      {
+        date: "06 Aug 2025",
+        tag: "Achievement",
+        title: "Under 19 Boys 400m – 2nd Place, District Selected",
+        text: "Congratulations to our sprinter for finishing second in the district and earning selection — a proud moment for Palm Matric.",
+      },
+      {
+        date: "06 Aug 2025",
+        tag: "Achievement",
+        title: "Under 19 Boys 200m – 1st Place, District Selected",
+        text: "First place in the district and a district selection — outstanding speed and dedication from our Under-19 athlete.",
+      },
+      {
+        date: "30 Jul 2025",
+        tag: "Sports",
+        title: "U-17 Boys Volleyball – District Level Winners",
+        text: "Our Under-17 volleyball team brought home the district trophy after a season of brilliant teamwork.",
+      },
+      {
+        date: "30 Jul 2025",
+        tag: "Sports",
+        title: "U-14 Boys Throwball – District Level Winners",
+        text: "Champions at district level! Our Under-14 throwball team finished the season on top.",
+      },
+    ],
+    ctaTitle: "Never miss a moment",
+    ctaText: "Follow our news and join us at the next celebration.",
+    ctaPrimary: "Get in touch",
+    ctaSecondary: "Admission Open",
+  },
+
+  admissions: {
+    breadcrumb: "Admissions",
+    kicker: "Join Us",
+    title: "Admissions Open for the Academic Year",
+    lead: "Give your child the best start toward academic and personal success — quality education at an affordable cost in Thiruthuraipoondi.",
+    stepsLabel: "Admissions Process",
+    stepsTitle: "Four simple steps",
+    steps: [
+      { n: "01", title: "Enquire", text: "Call or visit our office to learn about courses, fees and facilities." },
+      { n: "02", title: "Apply", text: "Fill in the admission form below with your child's details." },
+      { n: "03", title: "Meet Us", text: "A friendly interaction with the student and parents." },
+      { n: "04", title: "Confirm", text: "Submit the required documents and confirm the seat." },
+    ],
+    whyLabel: "Why Palm",
+    whyPoints: [
+      "Affordable, transparent fee structure",
+      "Experienced and caring faculty",
+      "State Board curriculum with modern teaching",
+      "Sports, cultural and extracurricular activities",
+      "Safe and nurturing campus",
+    ],
+    formTitle: "Admission Enquiry Form",
+    formText: "Fill the form and our office will call you back within one working day.",
+    fields: {
+      studentName: "Student Name",
+      parentName: "Parent / Guardian Name",
+      phone: "Phone Number",
+      email: "Email Address",
+      grade: "Applying for Grade",
+      group: "Preferred Academic Group",
+      message: "Message (optional)",
+      submit: "Submit Enquiry",
+      submitting: "Sending…",
+      required: "Required",
+      invalidPhone: "Enter a valid phone number",
+      invalidEmail: "Enter a valid email address",
+      success: "Thank you! Your enquiry has been recorded. Our office will call you shortly.",
+      successAgain: "Submit another enquiry",
+      selectGrade: "Select grade",
+      selectGroup: "Select group",
+      grades: [
+        "LKG", "UKG", "Class 1", "Class 2", "Class 3", "Class 4", "Class 5",
+        "Class 6", "Class 7", "Class 8", "Class 9", "Class 10", "Class 11", "Class 12",
+      ],
+    },
+    contactLabel: "Prefer to talk?",
+    helpline: "Helpline",
+    emailLabel: "Email us",
+    addressLabel: "Office Address",
+    ctaTitle: "Admissions Open for the Academic Year!",
+    ctaText:
+      "Join our learning community and give your child the best start toward academic and personal success.",
+  },
+
+  contact: {
+    breadcrumb: "Contact",
+    kicker: "Get in Touch",
+    title: "Contact Palm Matric",
+    lead: "Questions about admissions, courses or campus life? We are here to help.",
+    addressLabel: "Office Address",
+    address: "ECR Road, Kallikkudi, Thiruthuraipoondi - TK, Thiruvarur District - 614703",
+    phoneLabel: "Phone Number",
+    phone: "+91 99404 85774",
+    emailLabel: "Email Address",
+    email: "palmmatric@gmail.com",
+    hoursLabel: "Office Hours",
+    hours: "Monday – Saturday, 9:00 AM – 5:00 PM",
+    getDirections: "Get directions",
+    formTitle: "Send us a message",
+    formText: "We usually reply within one working day.",
+    fields: {
+      name: "Your Name",
+      phone: "Phone Number",
+      email: "Email Address",
+      subject: "Subject",
+      message: "Message",
+      submit: "Send Message",
+      submitting: "Sending…",
+      required: "Required",
+      invalidPhone: "Enter a valid phone number",
+      invalidEmail: "Enter a valid email address",
+      success: "Thank you! Your message has been sent — we will get back to you soon.",
+      successAgain: "Send another message",
+    },
+    faqTitle: "Have questions?",
+    faqText: "Our FAQs cover admissions, timings, fees and more.",
+    faqCta: "Read the FAQs",
+    mapLabel: "Find us",
+  },
+
+  faqs: {
+    breadcrumb: "FAQs",
+    kicker: "Help Centre",
+    title: "Your FAQs Answered",
+    lead: "Everything parents ask about admissions, academics and life at Palm Matric.",
+    items: [
+      {
+        q: "How do I apply for admission?",
+        a: "Call us on +91 99404 85774, visit the school office, or fill in the admission enquiry form on our Admissions page. Our team will guide you through the process and list the documents you need.",
+      },
+      {
+        q: "Which curriculum do you follow?",
+        a: "We follow the Tamil Nadu State Board curriculum for Classes 1 to 12, with four specialised academic groups offered at the higher secondary level (Classes 11 and 12).",
+      },
+      {
+        q: "What are the school timings?",
+        a: "Classes generally run from 9:00 AM to 4:00 PM, Monday to Saturday. Exact timings for your child's grade will be shared at the time of admission.",
+      },
+      {
+        q: "Do you provide transport facilities?",
+        a: "Yes, school transport is available for students across Thiruthuraipoondi and nearby areas. Contact our office for routes and fees.",
+      },
+      {
+        q: "How are the fees structured?",
+        a: "We believe in quality education at an affordable cost. Fee structure varies by grade — please contact the office for the current year's detailed fee details.",
+      },
+      {
+        q: "What extracurricular activities are offered?",
+        a: "Students enjoy sports (volleyball, throwball, athletics), science expos, annual day, cultural programmes, graduation day and inter-school competitions.",
+      },
+      {
+        q: "Are the classrooms equipped with modern teaching tools?",
+        a: "Yes — modern classrooms, well-equipped science laboratories, a computer lab and a library support effective, interactive learning.",
+      },
+      {
+        q: "How can I contact a teacher?",
+        a: "You can reach teachers through the school office on +91 99404 85774 or by email at palmmatric@gmail.com. Parents' meetings are held regularly throughout the year.",
+      },
+    ],
+    stillLabel: "Still have questions?",
+    stillTitle: "We are happy to help",
+    stillText: "Call us, write to us, or visit the campus — whichever is easiest for you.",
+    stillCall: "Call the office",
+    stillEmail: "Email us",
+  },
+
+  footer: {
+    description:
+      "At Palm Matric Hr. Sec. School, we believe in providing quality education at an affordable cost in Thiruthuraipoondi. Join our learning community and give your child the best start toward academic and personal success.",
+    usefulLinks: "Useful Links",
+    getInTouch: "Get in Touch",
+    addressLabel: "Address",
+    address: "ECR Road, Kallikkudi, Thiruthuraipoondi - TK, Thiruvarur District - 614703",
+    followUs: "Follow Us",
+    rights: "Copyright 2026 — All Rights Reserved by Palm Matric Hr. Sec. School.",
+    quickMenu: "Quick Menu",
+    getDirections: "Get directions",
+  },
+
+  common: {
+    readMore: "Read more",
+    viewAll: "View all",
+    backToHome: "Back to home",
+    notFoundTitle: "Page not found",
+    notFoundText: "The page you are looking for does not exist or has moved.",
+    langLabel: "தமிழ்",
+    langShort: "TA",
+  },
+};
