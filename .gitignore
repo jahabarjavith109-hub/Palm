@@ -36,6 +36,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# playwright QA artifacts
+/.playwright-mcp/
+
+# gitnexus index
+/.gitnexus/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

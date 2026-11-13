@@ -38,10 +38,12 @@ export default function ContactPage() {
     if (Object.keys(next).length > 0) return;
 
     setSubmitting(true);
+    // Capture the form now: React nulls ev.currentTarget after the handler returns.
+    const form = ev.currentTarget;
     window.setTimeout(() => {
       setSubmitting(false);
       setSent(true);
-      ev.currentTarget.reset();
+      form.reset();
     }, 700);
   }
 
@@ -128,6 +130,7 @@ export default function ContactPage() {
                         name="name"
                         type="text"
                         autoComplete="name"
+                        maxLength={100}
                         className={`${fieldBase} ${errors.name ? badBorder : okBorder}`}
                       />
                       {errors.name && (
@@ -147,6 +150,7 @@ export default function ContactPage() {
                         autoComplete="tel"
                         dir="ltr"
                         placeholder="+91 99404 85774"
+                        maxLength={15}
                         className={`${fieldBase} ${errors.phone ? badBorder : okBorder}`}
                       />
                       {errors.phone && (
@@ -163,6 +167,7 @@ export default function ContactPage() {
                         name="email"
                         type="email"
                         autoComplete="email"
+                        maxLength={254}
                         className={`${fieldBase} ${errors.email ? badBorder : okBorder}`}
                       />
                       {errors.email && (
@@ -178,6 +183,7 @@ export default function ContactPage() {
                         id="subject"
                         name="subject"
                         type="text"
+                        maxLength={150}
                         className={`${fieldBase} ${okBorder}`}
                       />
                     </div>
@@ -190,6 +196,7 @@ export default function ContactPage() {
                         id="message"
                         name="message"
                         rows={5}
+                        maxLength={2000}
                         className={`${fieldBase} ${errors.message ? badBorder : okBorder} resize-y`}
                       />
                       {errors.message && (

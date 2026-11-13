@@ -123,6 +123,7 @@ export default function AdmissionsPage() {
                         name="studentName"
                         type="text"
                         autoComplete="name"
+                        maxLength={100}
                         className={`${fieldBase} ${errors.studentName ? badBorder : okBorder}`}
                       />
                       {errors.studentName && (
@@ -139,6 +140,7 @@ export default function AdmissionsPage() {
                         name="parentName"
                         type="text"
                         autoComplete="name"
+                        maxLength={100}
                         className={`${fieldBase} ${errors.parentName ? badBorder : okBorder}`}
                       />
                       {errors.parentName && (
@@ -158,6 +160,7 @@ export default function AdmissionsPage() {
                         autoComplete="tel"
                         dir="ltr"
                         placeholder="+91 99404 85774"
+                        maxLength={15}
                         className={`${fieldBase} ${errors.phone ? badBorder : okBorder}`}
                       />
                       {errors.phone && (
@@ -174,6 +177,7 @@ export default function AdmissionsPage() {
                         name="email"
                         type="email"
                         autoComplete="email"
+                        maxLength={254}
                         className={`${fieldBase} ${errors.email ? badBorder : okBorder}`}
                       />
                       {errors.email && (
@@ -230,6 +234,7 @@ export default function AdmissionsPage() {
                         id="message"
                         name="message"
                         rows={4}
+                        maxLength={2000}
                         className={`${fieldBase} ${okBorder} resize-y`}
                       />
                     </div>
