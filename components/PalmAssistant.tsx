@@ -203,8 +203,17 @@ export default function PalmAssistant() {
         >
           {/* header */}
           <div className="flex items-center gap-3 bg-blue px-4 py-3.5 text-white">
-            <div className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-lime text-lg font-bold text-blue-deep" aria-hidden>
-              🌴
+            <div
+              className="grid h-10 w-10 shrink-0 place-items-center overflow-hidden rounded-full bg-white ring-2 ring-lime/70"
+              aria-hidden
+            >
+              <img
+                src="/assets/img/logo-icon.png"
+                alt=""
+                width={40}
+                height={40}
+                className="h-full w-full object-cover"
+              />
             </div>
             <div className="min-w-0 flex-1">
               <p className="truncate text-sm font-bold">{copy.title}</p>

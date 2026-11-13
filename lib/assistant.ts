@@ -44,13 +44,13 @@ export function containsTamil(s: string): boolean {
 /* ------------------------------------------------------------------ */
 
 export const FALLBACK: Record<Lang, string> = {
-  en: "I'm not sure about that one yet! 🌴 Try asking me about admissions, fees, timings, streams, transport or facilities — or reach the school directly:\n📞 +91 99404 85774 · ✉️ palmmatric@gmail.com",
-  ta: "இதுபற்றி எனக்கு உறுதியாகத் தெரியவில்லை! 🌴 சேர்க்கை, கட்டணம், நேரம், பாடக் குழுக்கள், போக்குவரத்து அல்லது வசதிகள் பற்றி கேட்டுப் பாருங்கள் — அல்லது பள்ளியை நேரில் தொடர்புகொள்ளுங்கள்:\n📞 +91 99404 85774 · ✉️ palmmatric@gmail.com",
+  en: "I'm not sure about that one yet! Try asking me about admissions, fees, timings, streams, transport or facilities — or reach the school directly:\n📞 +91 99404 85774 · ✉️ palmmatric@gmail.com",
+  ta: "இதுபற்றி எனக்கு உறுதியாகத் தெரியவில்லை! சேர்க்கை, கட்டணம், நேரம், பாடக் குழுக்கள், போக்குவரத்து அல்லது வசதிகள் பற்றி கேட்டுப் பாருங்கள் — அல்லது பள்ளியை நேரில் தொடர்புகொள்ளுங்கள்:\n📞 +91 99404 85774 · ✉️ palmmatric@gmail.com",
 };
 
 export const GREETING: Record<Lang, string> = {
-  en: "Hello! 🌴 I'm Palm AI, the assistant of Palm Matric Hr. Sec. School. Ask me anything about admissions, fees, timings, streams, transport or campus life — in English or Tamil.",
-  ta: "வணக்கம்! 🌴 நான் Palm AI — பாம் மெட்ரிக் மேல்நிலைப் பள்ளியின் உதவியாளர். சேர்க்கை, கட்டணம், நேரம், பாடக் குழுக்கள், போக்குவரத்து அல்லது வளாக வாழ்க்கை பற்றி எதை வேண்டுமானாலும் தமிழிலோ ஆங்கிலத்திலோ கேளுங்கள்.",
+  en: "Hello! I'm Palm AI, the assistant of Palm Matric Hr. Sec. School. Ask me anything about admissions, fees, timings, streams, transport or campus life — in English or Tamil.",
+  ta: "வணக்கம்! நான் Palm AI — பாம் மெட்ரிக் மேல்நிலைப் பள்ளியின் உதவியாளர். சேர்க்கை, கட்டணம், நேரம், பாடக் குழுக்கள், போக்குவரத்து அல்லது வளாக வாழ்க்கை பற்றி எதை வேண்டுமானாலும் தமிழிலோ ஆங்கிலத்திலோ கேளுங்கள்.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -66,8 +66,8 @@ export const KNOWLEDGE: Knowledge[] = [
     ],
     ta: ["சேர்க்கை", "சேர", "விண்ணப்பம்", "விண்ணப்பிக்க", "இடம்", "பதிவு"],
     a: {
-      en: "Admissions for the 2026 academic year are open! 🌴 Four simple steps:\n1) Enquire — call or visit our office to learn about courses, fees and facilities.\n2) Apply — fill in the admission form (on our Admissions page or at the office).\n3) Meet Us — a friendly interaction with the student and parents.\n4) Confirm — submit the required documents and confirm the seat.\nCall +91 99404 85774 and our office will call you back within one working day.",
-      ta: "2026 கல்வியாண்டுக்கான சேர்க்கைத் திறந்துள்ளது! 🌴 நான்கு எளிய படிகள்:\n1) விசாரணை — பாடங்கள், கட்டணம், வசதிகள் பற்றி அறிய அலுவலகத்தை அழையுங்கள் அல்லது நேரில் பார்வையிடுங்கள்.\n2) விண்ணப்பம் — சேர்க்கைப் படிவத்தை நிரப்புங்கள்.\n3) எங்களைச் சந்தியுங்கள் — மாணவர் மற்றும் பெற்றோருடன் நட்பான சந்திப்பு.\n4) உறுதிப்படுத்துங்கள் — தேவையான ஆவணங்களைச் சமர்ப்பித்து இடத்தை உறுதிப்படுத்துங்கள்.\n+91 99404 85774 என்ற எண்ணில் அழையுங்கள் — ஒரு வேலை நாளுக்குள் அலுவலகம் உங்களைத் தொடர்புகொள்ளும்.",
+      en: "Admissions for the 2026 academic year are open! Four simple steps:\n1) Enquire — call or visit our office to learn about courses, fees and facilities.\n2) Apply — fill in the admission form (on our Admissions page or at the office).\n3) Meet Us — a friendly interaction with the student and parents.\n4) Confirm — submit the required documents and confirm the seat.\nCall +91 99404 85774 and our office will call you back within one working day.",
+      ta: "2026 கல்வியாண்டுக்கான சேர்க்கைத் திறந்துள்ளது! நான்கு எளிய படிகள்:\n1) விசாரணை — பாடங்கள், கட்டணம், வசதிகள் பற்றி அறிய அலுவலகத்தை அழையுங்கள் அல்லது நேரில் பார்வையிடுங்கள்.\n2) விண்ணப்பம் — சேர்க்கைப் படிவத்தை நிரப்புங்கள்.\n3) எங்களைச் சந்தியுங்கள் — மாணவர் மற்றும் பெற்றோருடன் நட்பான சந்திப்பு.\n4) உறுதிப்படுத்துங்கள் — தேவையான ஆவணங்களைச் சமர்ப்பித்து இடத்தை உறுதிப்படுத்துங்கள்.\n+91 99404 85774 என்ற எண்ணில் அழையுங்கள் — ஒரு வேலை நாளுக்குள் அலுவலகம் உங்களைத் தொடர்புகொள்ளும்.",
     },
     escalate: true,
   },

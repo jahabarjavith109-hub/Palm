@@ -81,26 +81,45 @@ export default function AboutPage() {
             </h2>
           </Reveal>
           <Reveal delay={160}>
-            <blockquote className="relative mt-10">
-              <span
-                aria-hidden
-                className="absolute -left-2 -top-8 text-7xl text-lime/40 sm:-left-6 sm:text-8xl"
-              >
-                &ldquo;
-              </span>
-              <p className="relative text-xl leading-relaxed text-white/85 sm:text-2xl">
-                {a.chairmanQuote}
-              </p>
-              <footer className="mt-8 flex items-center gap-4">
-                <span className="flex h-14 w-14 items-center justify-center rounded-full bg-lime text-lg font-extrabold text-navy">
-                  {a.chairmanName.split(" ").map((w) => w[0]).join("")}
+            <div className="mt-10 grid items-center gap-9 md:grid-cols-[minmax(0,17rem)_minmax(0,1fr)] md:gap-12 lg:grid-cols-[minmax(0,20rem)_minmax(0,1fr)]">
+              {/* chairman portrait — left of the message */}
+              <figure className="relative mx-auto w-full max-w-[19rem] md:mx-0 md:max-w-none">
+                <span
+                  aria-hidden
+                  className="absolute -left-3 -top-3 h-20 w-20 rounded-2xl border-2 border-lime/50"
+                />
+                <div className="relative overflow-hidden rounded-3xl border-4 border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.4)]">
+                  <img
+                    src="/assets/img/chairman.jpg"
+                    alt={`${a.chairmanName} — ${a.chairmanRole}`}
+                    width={545}
+                    height={935}
+                    className="aspect-[545/935] w-full object-cover"
+                  />
+                </div>
+              </figure>
+
+              <blockquote className="relative">
+                <span
+                  aria-hidden
+                  className="absolute -left-2 -top-8 text-7xl text-lime/40 sm:-left-6 sm:text-8xl"
+                >
+                  &ldquo;
                 </span>
-                <span>
-                  <span className="block font-semibold">{a.chairmanName}</span>
-                  <span className="text-sm text-white/60">{a.chairmanRole}</span>
-                </span>
-              </footer>
-            </blockquote>
+                <p className="relative text-xl leading-relaxed text-white/85 sm:text-2xl">
+                  {a.chairmanQuote}
+                </p>
+                <footer className="mt-8 flex items-center gap-4">
+                  <span className="flex h-14 w-14 items-center justify-center rounded-full bg-lime text-lg font-extrabold text-navy">
+                    {a.chairmanName.split(" ").map((w) => w[0]).join("")}
+                  </span>
+                  <span>
+                    <span className="block font-semibold">{a.chairmanName}</span>
+                    <span className="text-sm text-white/60">{a.chairmanRole}</span>
+                  </span>
+                </footer>
+              </blockquote>
+            </div>
           </Reveal>
         </div>
       </section>
